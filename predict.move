@@ -10,7 +10,7 @@ module predict_market::prediction {
 
     const MODULE_ADDRESS: address = @predict_market;
 
-    // --- Errors ---
+    // --- Errors const ---
     const ERROR_SLOT_ID_NOT_PRESENT: u64 = 1;
     const ERROR_NO_PREDICTION_FOUND: u64 = 2;
     const ERROR_NOT_AUTH: u64 = 5;
